@@ -26,12 +26,12 @@ an example command that you will need to run to push to this repo.
    will be using your namespace, not "docker".
 
     ```plaintext
-    $ docker push docker/getting-started
-    The push refers to repository [docker.io/docker/getting-started]
-    An image does not exist locally with the tag: docker/getting-started
+    $ docker push iamkriil/getting-started
+    The push refers to repository [docker.io/iamkriil/getting-started]
+    An image does not exist locally with the tag: iamkriil/getting-started
     ```
 
-    Why did it fail? The push command was looking for an image named docker/getting-started, but
+    Why did it fail? The push command was looking for an image named iamkriil/getting-started, but
     didn't find one. If you run `docker image ls`, you won't see one either.
 
     To fix this, we need to "tag" our existing image we've built to give it another name.
